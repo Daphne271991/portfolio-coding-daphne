@@ -26,15 +26,65 @@
     ></script>
     <link rel="stylesheet" href="styles/portfolio.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <meta
+      name="description"
+      content="Daphne is a front-end engineer based in USA."
+    />
+    <title>Front-end developer- Daphne Bonilla</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Daphne Bonilla</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="index.html"
+                title="Homepage"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html" title="About Daphne"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="work.html" title="Daphne's Work"
+                >My work</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" title="Contact Daphne"
+                >Contact me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="hero">
       <p>👋 Hello, I am</p>
       <h1>Daphne Bonilla</h1>
       <h2 class="mb-5">Front-end developer based in USA</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding" title="Contact me"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="text-center m-5">
@@ -43,7 +93,11 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/weather.png" class="img-fluid" alt="" />
+          <img
+            src="images/weather.png"
+            class="img-fluid"
+            alt="Weather project preview"
+          />
         </div>
         <div class="col">
           <div class="project-desciption">
@@ -54,7 +108,9 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
           </div>
         </div>
       </div>
@@ -68,16 +124,26 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/clock.png" class="img-fluid" alt="" />
+          <img
+            src="images/clock.png"
+            class="img-fluid"
+            alt="World Clock project preview"
+          />
         </div>
       </div>
       <div class="row">
         <div class="col d-none d-lg-block">
-          <img src="images/hobby.png" class="img-fluid" alt="" />
+          <img
+            src="images/hobby.png"
+            class="img-fluid"
+            alt="Hobby project preview"
+          />
         </div>
         <div class="col">
           <div class="project-desciption">
@@ -88,10 +154,56 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
           </div>
         </div>
       </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-branding mt-3">
+              Contact me
+            </a>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:daphne.ari.b@gmail.com" class="email-link"
+            >daphne.ari.b@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://github.com/Daphne271991"
+            target="_blank"
+            title="Github Profile"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://twitter.com/daphnearyb"
+            target="_blank"
+            title="Twitter Profile"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+        <p class="text-center mt-5">
+          👩🏽‍💻This project was coded by Daphne Bonilla and it is
+          <a
+            href="https://github.com/Daphne271991/portfolio-coding-daphne"
+            target="_blank"
+          >
+            open sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
